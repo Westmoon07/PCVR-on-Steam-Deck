@@ -26,6 +26,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - header.autohide
 
 nav:
   - Home: index.md
