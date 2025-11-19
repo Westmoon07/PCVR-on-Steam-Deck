@@ -1,0 +1,48 @@
+/* Remove tall top bar */
+.md-header {
+    height: 0;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+/* Push content up since header is removed */
+.md-main, .md-main__inner {
+    padding-top: 0 !important;
+}
+
+/* Always show sidebar */
+.md-sidebar--primary {
+    display: block !important;
+}
+
+/* Whisky-style sidebar colour */
+.md-sidebar--primary .md-sidebar__inner {
+    background: #1A1B26;  /* very dark purple/blue */
+}
+
+/* Sidebar links */
+.md-nav__link, .md-sidebar__link {
+    color: #c0c3d7 !important;
+}
+
+.md-nav__link:hover {
+    color: #ffffff !important;
+}
+
+/* Active link highlight */
+.md-nav__item--active > .md-nav__link {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+/* Make page background bright like Whisky docs */
+.md-content {
+    background: #ffffff;
+}
+
+/* Remove shadow under (now hidden) header */
+.md-header--shadow {
+    box-shadow: none !important;
+}
