@@ -1,0 +1,17 @@
+/* Hide the top header bar */
+.md-header {
+  display: none;
+}
+
+/* Move the content up so there's no top gap */
+.md-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Make sidebar sticky / always visible */
+.md-sidebar--primary {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
