@@ -1,3 +1,0 @@
-# Overview
-
-Guide overview page.
