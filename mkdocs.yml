@@ -45,7 +45,10 @@ extra:
       link: https://github.com
     - icon: material/web
       link: https://example.com
-
+      
+extra_css:
+  - assets/extra.css
+  
 plugins:
   - search
   - tags
