@@ -21,9 +21,6 @@ theme:
       primary: deep purple
       accent: deep purple
       background: black
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
 
 extra_css:
   - styles/whisky.css
@@ -43,9 +40,9 @@ nav:
 extra:
   social:
     - icon: material/github
-      link: https://github.com
+      link: https://github.com/Westmoon07/PCVR-on-Steam-Deck
     - icon: material/web
-      link: https://example.com
+      link: https://www.westmoon05.xyz/
       
 extra_css:
   - assets/extra.css
