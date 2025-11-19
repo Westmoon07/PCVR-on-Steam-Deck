@@ -1,5 +1,5 @@
 site_name: PCVR on Steam Deck
-site_url: /
+site_url: https://pcvr-on-steam-deck.vercel.app/
 theme:
   name: material
   features:
